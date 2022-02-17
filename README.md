@@ -1,5 +1,5 @@
 # wood
-Software that optimizes the cutting plans of pieces in a log
+Software that optimizes the cutting plans of pieces in a trunk
 
 Interface using kivy:
 ![interface_v0](https://user-images.githubusercontent.com/94360234/154512494-ec8136ce-2f0e-4a57-88a3-7c78f55440bf.jpg)
