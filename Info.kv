@@ -1,0 +1,53 @@
+InfoForm:
+    BoxLayout:
+        orientation: 'vertical'
+
+        r_input: r_tron
+        e_input: ecorce
+        p1_input: p1
+        p2_input: p2
+
+        aire_label: aire
+
+        BoxLayout:
+            orientation: 'horizontal'
+            Label:
+                text: 'Rayon du tron'
+            TextInput
+                id: r_tron 
+                multiline: False
+                on_text_validate: root._compute(self)
+
+        BoxLayout:
+            orientation: 'horizontal'
+            Label:
+                text: 'Epaisseur de l\'ecorce'
+            TextInput
+                id: ecorce
+                multiline: False
+
+        BoxLayout:
+            orientation: 'horizontal'
+            Label:
+                text: 'Dimension de la premiere piece (format [x,y])'
+            TextInput
+                id: p1
+                multiline: False
+
+        BoxLayout:
+            orientation: 'horizontal'
+            Label:
+                text: 'Dimension de la seconde piece (format [x,y])'
+            TextInput
+                id: p2
+                multiline: False
+
+        BoxLayout:
+            orientation: 'horizontal'
+            Button:
+                text: 'OK'
+
+        Label:
+            id: aire
+        
+        
