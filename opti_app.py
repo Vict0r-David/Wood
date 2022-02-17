@@ -26,7 +26,7 @@ class InfoForm(BoxLayout):
 
 class InfoApp(App):
     def build(self):
-        self.title = 'Optimisation de découpe de bois'
+        self.title = 'VD Cutting Plans'
     pass
     
 Config.set('graphics', 'width', '800') 

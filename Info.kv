@@ -12,7 +12,7 @@ InfoForm:
         BoxLayout:
             orientation: 'horizontal'
             Label:
-                text: 'Rayon du tron'
+                text: 'Trunk radius'
             TextInput
                 id: r_tron 
                 multiline: False
@@ -21,7 +21,7 @@ InfoForm:
         BoxLayout:
             orientation: 'horizontal'
             Label:
-                text: 'Epaisseur de l\'ecorce'
+                text: 'Bark thickness'
             TextInput
                 id: ecorce
                 multiline: False
@@ -29,7 +29,7 @@ InfoForm:
         BoxLayout:
             orientation: 'horizontal'
             Label:
-                text: 'Dimension de la premiere piece (format [x,y])'
+                text: 'Dimensions of the first piece (format [x,y])'
             TextInput
                 id: p1
                 multiline: False
@@ -37,7 +37,7 @@ InfoForm:
         BoxLayout:
             orientation: 'horizontal'
             Label:
-                text: 'Dimension de la seconde piece (format [x,y])'
+                text: 'Dimensions of the second piece (format [x,y])'
             TextInput
                 id: p2
                 multiline: False
@@ -45,7 +45,7 @@ InfoForm:
         BoxLayout:
             orientation: 'horizontal'
             Button:
-                text: 'OK'
+                text: 'Compute the optimal cutting plan'
 
         Label:
             id: aire
